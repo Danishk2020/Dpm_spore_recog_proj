@@ -1,18 +1,20 @@
-# Dpm_spore_recog_proj
 # Spore Recognition for Plant Disease Detection
 
-This project presents a machine learning model designed to detect plant diseases through spore recognition, leveraging a Convolutional Neural Network (CNN) for multiclass classification of spore images. The primary goal is to identify plant diseases by categorizing spores, enabling timely diagnosis and intervention.
+This project is a deep learning model that classifies spore images to detect plant diseases. By recognizing the presence and type of spores, this model can help identify specific plant diseases early and assist in agricultural disease management.
 
 ## Project Overview
 
-- **Objective**: Develop a reliable CNN-based model to detect plant diseases via spore image recognition.
-- **Method**: Use a Convolutional Neural Network (CNN) for multiclass classification of spore images.
-- **Applications**: Early plant disease detection, improved crop health monitoring, and optimized agricultural practices.
+The model uses a Convolutional Neural Network (CNN) to classify images of spores into multiple categories, each corresponding to a specific plant disease. The spore images are preprocessed and fed into the CNN, which outputs the disease class based on the spore type.
 
 ## Features
 
-- Multiclass classification of spore images for accurate disease identification
-- High-performance model with reliable accuracy and precision
-- Scalable architecture for further extension to include additional spore classes or diseases
+- **Multiclass Classification**: Classifies spore images into multiple plant disease categories.
+- **Deep Learning Architecture**: Built using Convolutional Neural Networks (CNN) for image recognition tasks.
 
+## Installation
 
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/Danishk2020/DPM_spore_recogn_proj.git
+   cd spore-recognition
